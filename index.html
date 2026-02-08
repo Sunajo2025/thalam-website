@@ -1,0 +1,999 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thalam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gantari:wght@300;400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="bg-background border-b border-primary/20 sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <div class="text-xl font-heading font-semibold text-primary">
+          THALAM.
+        </div>
+
+        <!-- Nav Links -->
+        <nav
+          class="hidden md:flex items-center space-x-8 font-body text-sm text-primary"
+        >
+          <a href="#home" class="hover:opacity-70">Home</a>
+          <a href="#about" class="hover:opacity-70">About</a>
+          <a href="#services" class="hover:opacity-70">Services</a>
+          <a href="#projects" class="hover:opacity-70">Projects</a>
+        </nav>
+
+        <!-- Contact Button -->
+        <a
+          href="#contact"
+          class="bg-primary text-background px-5 py-2 text-sm font-body hover:opacity-90 transition"
+        >
+          Contact Us
+        </a>
+      </div>
+    </header>
+
+    <!-- hero-section -->
+    <section id="home" class="bg-background relative min-h-screen py-10">
+      <div class="max-w-7xl mx-auto px-6 h-full flex flex-col justify-between">
+        <!-- Top part: Title and Year -->
+        <div class="flex justify-between items-start mb-16">
+          <h1
+            class="font-heading text-primary text-6xl leading-tight max-w-3xl max-sm:text-4xl sm:text-5xl"
+          >
+            Architectural <span class="text-primary/30">Excellence in</span
+            ><br />
+            <span class="text-primary/30">Space</span> Transformation.
+          </h1>
+          <div class="text-sm font-body text-primary pt-4">[2026]</div>
+        </div>
+
+        <!-- Middle part: Right text and Separator -->
+        <div class="flex flex-col items-center mb-16 px-4 sm:px-10">
+          <div class="w-full flex justify-end mb-10">
+            <p
+              class="font-body text-sm text-primary/70 max-w-sm text-right sm:text-right text-left"
+            >
+              Welcome to THALAM, an architecture and design studio founded by
+              Krishnasri Baskaran and Maneesh. We focus on crafting meaningful,
+              functional, and timeless spaces that translate vision into
+              enduring built form.
+            </p>
+          </div>
+
+          <!-- Separator Icon -->
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-[1px] bg-primary"></div>
+            <div class="w-2 h-2 border border-primary rounded-full"></div>
+            <div class="w-8 h-[1px] bg-primary"></div>
+          </div>
+        </div>
+
+        <!-- Bottom part: Cards and Scroll down -->
+        <div class="relative grid grid-cols-1 md:grid-cols-3 gap-0">
+          <!-- Side Text: SCROLL DOWN -->
+          <div
+            class="absolute -left-20 top-0 bottom-0 hidden md:flex items-center"
+          >
+            <div
+              class="rotate-[-90deg] whitespace-nowrap text-[10px] tracking-[0.3em] font-body text-primary/60 uppercase"
+            >
+              Scroll Down
+            </div>
+          </div>
+
+          <!-- Card 1: Luxury Residential Design -->
+          <div
+            class="bg-softBeige p-10 flex flex-col justify-between aspect-auto md:aspect-square"
+          >
+            <div>
+              <div
+                class="w-10 h-10 rounded-full border border-primary/20 flex items-center justify-center mb-10 bg-white"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M5 16l-3 4V4a2 2 0 012-2h16a2 2 0 012 2v16l-3-4H5z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-heading text-2xl text-primary leading-tight mb-4">
+                Luxury Residential<br />Design
+              </h3>
+            </div>
+            <div>
+              <p class="font-body text-xs text-primary/70 mb-6 max-w-[200px]">
+                Thoughtfully designed homes that balance aesthetics, comfort,
+                functionality, and lifestyle needs.
+              </p>
+              <a
+                href="#"
+                class="font-body text-xs text-primary font-semibold flex items-center gap-2"
+              >
+                Learn More <span>&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: THALAM Illustration -->
+          <div
+            class="bg-primary p-10 flex flex-col relative aspect-auto md:aspect-square min-h-[400px]"
+          >
+            <div class="text-white font-heading font-bold text-xl mb-4">
+              THALAM.
+            </div>
+            <div
+              class="flex-grow relative flex items-center justify-center overflow-hidden"
+            >
+              <img
+                src="architecture_illustration.png"
+                alt="Architecture"
+                class="absolute inset-0 w-full h-full object-cover opacity-80"
+              />
+            </div>
+            <div class="absolute top-10 right-10">
+              <div
+                class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center bg-white/10 text-white"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M5 16l-3 4V4a2 2 0 012-2h16a2 2 0 012 2v16l-3-4H5z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Urban Planning & Development -->
+          <div
+            class="bg-softPurple p-10 flex flex-col justify-between aspect-auto md:aspect-square"
+          >
+            <div>
+              <div
+                class="w-10 h-10 rounded-full border border-primary/20 flex items-center justify-center mb-10 bg-white"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M5 16l-3 4V4a2 2 0 012-2h16a2 2 0 012 2v16l-3-4H5z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-heading text-2xl text-primary leading-tight mb-4">
+                Urban Planning &<br />Development
+              </h3>
+            </div>
+            <div>
+              <p class="font-body text-xs text-primary/70 mb-6 max-w-[200px]">
+                Sustainable and future focused planning solutions that shape
+                inclusive and context driven urban environments.
+              </p>
+              <a
+                href="#"
+                class="font-body text-xs text-primary font-semibold flex items-center gap-2"
+              >
+                Learn More <span>&rarr;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="bg-background py-32 border-t border-b border-primary/100">
+      <div
+        class="max-w-7xl mx-auto px-6 lg:grid lg:grid-cols-[1fr_2.5fr] gap-20 items-start"
+      >
+        <!-- Left Side Label -->
+        <div class="pt-2">
+          <span
+            class="font-body text-xs tracking-[0.3em] text-primary/60 uppercase"
+          >
+            [About Us]
+          </span>
+        </div>
+
+        <!-- Right Side Content -->
+        <div class="ml-auto w-full max-w-[900px]">
+          <h2
+            class="font-heading text-primary text-6xl leading-tight max-w-3xl max-sm:text-4xl sm:text-5xl leading-tight mb-8"
+          >
+            Crafting <span class="text-primary/30"></span>Inspiring Designs</span> to<br />
+            Transform <span class="text-primary/30">Everyday</span> Spaces!
+          </h2>
+
+          <p
+            class="font-body text-sm text-primary/70 max-w-2xl mb-16 leading-relaxed"
+          >
+            Founded in 2026, THALAM has led the architectural industry with
+            innovative, award-winning designs that set new benchmarks in
+            functionality and aesthetics. Our mission is simple: to create
+            inspiring spaces that elevate the human experience, blending
+            creativity and purpose to transform environments and enhance the way
+            people live and work.
+          </p>
+
+          <!-- Stats -->
+          <div class="flex flex-wrap gap-12 sm:gap-20 mb-16">
+            <div class="flex flex-col gap-2">
+              <div class="font-heading text-5xl font-bold text-primary">
+                120+
+              </div>
+              <div class="font-body text-xs text-primary/60">
+                Satisfied Clients
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <div class="font-heading text-5xl font-bold text-primary">
+                500+
+              </div>
+              <div class="font-body text-xs text-primary/60">
+                Projects Completed
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <div class="font-heading text-5xl font-bold text-primary">
+                20+
+              </div>
+              <div class="font-body text-xs text-primary/60">
+                Years in Business
+              </div>
+            </div>
+          </div>
+
+          <!-- Button -->
+          <a
+            href="#"
+            class="inline-block bg-[#262626] text-white font-body text-sm px-10 py-4 hover:bg-opacity-90 transition-all"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR STORY SECTION -->
+    <section class="w-full flex flex-col lg:flex-row min-h-screen">
+      <!-- Left Dark Content -->
+      <div
+        class="bg-[#1f1f1f] text-white flex flex-col justify-between px-10 sm:px-16 lg:px-24 py-16 lg:py-32 w-full lg:w-1/2"
+      >
+        <!-- Top Label -->
+        <div>
+          <span
+            class="font-body text-xs tracking-[0.3em] text-white/60 uppercase"
+          >
+            [Our Story]
+          </span>
+        </div>
+
+        <!-- Center Statement -->
+        <div class="flex-grow flex items-center max-w-xl">
+          <h2
+            class="font-heading  text-6xl leading-tight max-w-4xl max-sm:text-4xl sm:text-5xl leading-tight"
+          >
+            We Believe <span class="text-white/30">Great Architecture</span><br />
+            Improves <span class="text-white/30">Lives Through</span><br />
+            Dedicated <span class="text-white/30">Project Delivery!</span>
+          </h2>
+        </div>
+
+        <!-- Empty div for balance -->
+        <div class="hidden lg:block h-10"></div>
+      </div>
+
+      <!-- Right Image Section -->
+      <div
+        class="w-full lg:w-1/2 bg-[#efeee9] flex items-center justify-center overflow-hidden min-h-[400px]"
+      >
+        <img
+          src="perspective_illustration.png"
+          alt="Architectural House Perspective"
+          class="w-full h-full object-cover opacity-90"
+        />
+      </div>
+    </section>
+
+    <!-- OUR SERVICES SECTION -->
+    <section id="services" class=" py-32 border-t border-primary/10">
+      <div
+        class="max-w-7xl mx-auto px-6 lg:grid lg:grid-cols-[1fr_2.5fr] gap-20 items-start"
+      >
+        <!-- Left Side Label -->
+        <div class="pt-2">
+          <span
+            class="font-body text-xs tracking-[0.3em] text-primary/60 uppercase"
+          >
+            [Our Services]
+          </span>
+        </div>
+
+        <!-- Right Side Content -->
+        <div class="ml-auto w-full max-w-[900px]">
+          <h2
+            class="font-heading text-primary text-6xl leading-tight max-w-3xl max-sm:text-4xl sm:text-5xl leading-tight mb-6"
+          >
+            Explore Our Comprehensive<br />
+            <span class="text-primary/30">Range of Architectural</span> Services!
+          </h2>
+
+          <p class="font-body text-sm text-primary/70 max-w-2xl mb-16">
+            Discover our diverse services, including innovative architectural
+            design, space planning, project management, and sustainable
+            solutions.
+          </p>
+
+          <!-- Accordion Container -->
+          <div class="space-y-0 border-t border-primary/10">
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item border-b border-primary/10 py-8">
+              <button
+                class="accordion-trigger w-full flex items-center justify-between text-left group"
+                onclick="toggleAccordion(0)"
+              >
+                <span class="font-heading text-xl font-bold text-primary">
+                  01. Design Consultation
+                </span>
+                <span
+                  class="accordion-icon text-2xl font-light text-primary transition-transform duration-300"
+                  >+</span
+                >
+              </button>
+              <div
+                class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out"
+              >
+                <div class="pt-6">
+                  <p class="font-body text-sm text-primary/70 mb-8 max-w-2xl">
+                    We specialize in creating functional, inspiring environments
+                    that meet the unique needs of our clients, transforming
+                    spaces with precision, creativity, and expertise.
+                  </p>
+                  <div
+                    class="w-full h-[300px] bg-[#efeee9] overflow-hidden rounded-sm"
+                  >
+                    <img
+                      src="consultation_meeting.png"
+                      alt="Design Consultation Meeting"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item border-b border-primary/10 py-8">
+              <button
+                class="accordion-trigger w-full flex items-center justify-between text-left group"
+                onclick="toggleAccordion(1)"
+              >
+                <span class="font-heading text-xl font-bold text-primary">
+                  02. Luxury Residential Design
+                </span>
+                <span
+                  class="accordion-icon text-2xl font-light text-primary transition-transform duration-300 pointer-events-none"
+                  >+</span
+                >
+              </button>
+              <div
+                class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out"
+              >
+                <div class="pt-6 text-sm text-primary/70">
+                  Detailed information about luxury residential design
+                  services...
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item border-b border-primary/10 py-8">
+              <button
+                class="accordion-trigger w-full flex items-center justify-between text-left group"
+                onclick="toggleAccordion(2)"
+              >
+                <span class="font-heading text-xl font-bold text-primary">
+                  03. Construction Supervision
+                </span>
+                <span
+                  class="accordion-icon text-2xl font-light text-primary transition-transform duration-300 pointer-events-none"
+                  >+</span
+                >
+              </button>
+              <div
+                class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out"
+              >
+                <div class="pt-6 text-sm text-primary/70">
+                  Detailed information about construction supervision
+                  services...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR PROJECTS SECTION -->
+    <section id="projects" class="bg-background py-32 border-t border-primary/10 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Section Header -->
+        <div class="lg:grid lg:grid-cols-[1fr_2.5fr] gap-20 items-start mb-20">
+          <div class="pt-2">
+            <span class="font-body text-xs tracking-[0.3em] text-primary/60 uppercase">
+              [Our Projects]
+            </span>
+          </div>
+          <div class="ml-auto w-full max-w-[900px]">
+            <h2 class="font-heading text-primary text-6xl leading-tight max-w-3xl max-sm:text-4xl sm:text-5xl leading-tight">
+              Discover <span class="text-primary/30">Our Range of Diverse</span><br /> 
+              Architectural Projects!
+            </h2>
+          </div>
+        </div>
+
+        <!-- Slider Container -->
+        <div class="relative">
+          <div id="project-slider" class="flex transition-transform duration-700 ease-out gap-8">
+            <!-- Slide 1 -->
+            <div class="project-slide min-w-[70%] sm:min-w-[50%] lg:min-w-[40%] transition-opacity duration-500">
+              <div class="aspect-[4/3] bg-primary/5 mb-6 overflow-hidden rounded-sm">
+                <img src="project_1.png" alt="Project 1" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+              </div>
+              <div class="slide-details opacity-0 transition-opacity duration-300">
+                <div class="flex justify-between items-center mb-4">
+                  <h3 class="font-heading text-2xl font-bold text-primary">Skyline Residencia</h3>
+                  <a href="#" class="font-body text-sm font-semibold flex items-center gap-1">See Details <span class="text-xl">&rarr;</span></a>
+                </div>
+                <p class="font-body text-sm text-primary/70 max-w-md">
+                  We specialize in creating functional, inspiring environments that meet the unique needs of our clients, transforming.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="project-slide min-w-[70%] sm:min-w-[50%] lg:min-w-[40%] transition-opacity duration-500">
+              <div class="aspect-[4/3] bg-primary/5 mb-6 overflow-hidden rounded-sm">
+                <img src="project_2.png" alt="Project 2" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+              </div>
+              <div class="slide-details opacity-0 transition-opacity duration-300">
+                <div class="flex justify-between items-center mb-4">
+                  <h3 class="font-heading text-2xl font-bold text-primary">Urban Vista Apartments</h3>
+                  <a href="#" class="font-body text-sm font-semibold flex items-center gap-1">See Details <span class="text-xl">&rarr;</span></a>
+                </div>
+                <p class="font-body text-sm text-primary/70 max-w-md">
+                  A modern residential complex designed with sustainable materials and community spaces in mind.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="project-slide min-w-[70%] sm:min-w-[50%] lg:min-w-[40%] transition-opacity duration-500">
+              <div class="aspect-[4/3] bg-primary/5 mb-6 overflow-hidden rounded-sm">
+                <img src="project_3.png" alt="Project 3" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+              </div>
+              <div class="slide-details opacity-0 transition-opacity duration-300">
+                <div class="flex justify-between items-center mb-4">
+                  <h3 class="font-heading text-2xl font-bold text-primary">The Crystal Atrium</h3>
+                  <a href="#" class="font-body text-sm font-semibold flex items-center gap-1">See Details <span class="text-xl">&rarr;</span></a>
+                </div>
+                <p class="font-body text-sm text-primary/70 max-w-md">
+                  An iconic corporate atrium that maximizes natural light through advanced glass engineering.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="absolute bottom-0 right-0 flex gap-4 mt-12 lg:relative lg:mt-16 lg:justify-end">
+            <button onclick="moveSlider(-1)" class="w-12 h-12 border border-primary/20 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+              <span class="text-xl">&larr;</span>
+            </button>
+            <button onclick="moveSlider(1)" class="w-12 h-12 border border-primary/20 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+              <span class="text-xl">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client-feedback -->
+<section class="bg-background py-32 border-t border-b border-primary/10 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Label -->
+    <div class="mb-16">
+      <span class="font-body text-xs tracking-[0.3em] text-primary/60 uppercase">
+        [Client Feedback]
+      </span>
+    </div>
+
+    <!-- Slider Wrapper -->
+    <div class="relative overflow-hidden">
+      <div
+        id="feedback-slider"
+        class="flex transition-transform duration-500 ease-in-out"
+      >
+
+        <!-- Slide 1 -->
+        <div class="feedback-slide min-w-full grid grid-cols-1 lg:grid-cols-[1.4fr_0.6fr] gap-16 items-center">
+
+          <!-- Left Text -->
+          <div class="max-w-2xl relative pt-16 pl-16">
+            <div class="relative inline-block">
+
+              <!-- Opening Quote -->
+              <span class="absolute -top-14 -left-14 text-[120px] leading-none text-primary/20 z-20 pointer-events-none">
+                “
+              </span>
+
+              <h3 class="font-heading text-4xl sm:text-5xl leading-tight relative z-10">
+                I Can’t Thanks <span class="text-primary/40">THALAM</span> Enough<br />
+                for <span class="text-primary/40">Amazing Work</span> On Our<br />
+                Commercial Space.
+              </h3>
+
+              <!-- Closing Quote -->
+              <span class="absolute -bottom-14 -right-14 text-[120px] leading-none text-primary/20 z-20 pointer-events-none">
+                ”
+              </span>
+
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="flex justify-end">
+            <img
+              src="client-2.png"
+              alt="Client"
+              class="w-[300px] h-[360px] object-cover"
+            />
+          </div>
+
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="feedback-slide min-w-full grid grid-cols-1 lg:grid-cols-[1.4fr_0.6fr] gap-16 items-center">
+
+          <div class="max-w-2xl relative pt-16 pl-16">
+            <div class="relative inline-block">
+
+              <!-- Opening Quote -->
+              <span class="absolute -top-14 -left-14 text-[120px] leading-none text-primary/20 z-20 pointer-events-none">
+                “
+              </span>
+
+              <h3 class="font-heading text-4xl sm:text-5xl leading-tight relative z-10">
+                Their Attention to <span class="text-primary/40">Detail</span> and<br />
+                Commitment to <span class="text-primary/40">Quality</span> Truly<br />
+                Set Them Apart.
+              </h3>
+
+              <!-- Closing Quote -->
+              <span class="absolute -bottom-14 -right-14 text-[120px] leading-none text-primary/20 z-20 pointer-events-none">
+                ”
+              </span>
+
+            </div>
+          </div>
+
+          <div class="flex justify-end">
+            <img
+              src="client-1.avif"
+              alt="Client"
+              class="w-[300px] h-[360px] object-cover"
+            />
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="flex justify-end gap-4 mt-16">
+        <button
+          onclick="moveFeedbackSlider(-1)"
+          class="w-12 h-12 border border-primary/20 flex items-center justify-center
+                 hover:bg-primary hover:text-white transition-all"
+          aria-label="Previous"
+        >
+          <span class="text-xl">&larr;</span>
+        </button>
+
+        <button
+          onclick="moveFeedbackSlider(1)"
+          class="w-12 h-12 border border-primary/20 flex items-center justify-center
+                 hover:bg-primary hover:text-white transition-all"
+          aria-label="Next"
+        >
+          <span class="text-xl">&rarr;</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-background py-32 border-t border-primary/10">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-24 items-start">
+
+    <!-- Left Label -->
+    <div>
+      <span class="font-body text-xs tracking-[0.3em] text-primary/60 uppercase">
+        [Founders]
+      </span>
+    </div>
+
+    <!-- Right Content -->
+    <div class="ml-auto w-full max-w-[900px]">
+
+      <!-- Heading -->
+      <h2 class="font-heading text-5xl leading-tight mb-12">
+        Visionaries Behind<br />
+        <span class="text-primary/40">THALAM.</span>
+      </h2>
+
+      <!-- Description -->
+      <p class="font-body text-sm text-primary/70 max-w-2xl mb-20 leading-relaxed">
+        THALAM was founded by Krishnasri Baskaran and Maneesh, driven by a shared
+        belief that architecture should be purposeful, timeless, and deeply
+        connected to human experience. Their combined vision blends creativity,
+        discipline, and strategic thinking to deliver spaces that endure.
+      </p>
+
+      <!-- Founders List -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-16">
+
+        <!-- Founder 1 -->
+        <div>
+          <h3 class="font-heading text-2xl mb-2">
+            Krishnasri Baskaran
+          </h3>
+          <p class="font-body text-xs text-primary/60 mb-4">
+            Co-Founder
+          </p>
+          <p class="font-body text-sm text-primary/70 leading-relaxed max-w-sm">
+            Focused on design integrity and conceptual clarity, Krishnasri brings
+            a thoughtful approach to architecture, ensuring every project
+            balances aesthetics, function, and context.
+          </p>
+        </div>
+
+        <!-- Founder 2 -->
+        <div>
+          <h3 class="font-heading text-2xl mb-2">
+            Maneesh
+          </h3>
+          <p class="font-body text-xs text-primary/60 mb-4">
+            Co-Founder
+          </p>
+          <p class="font-body text-sm text-primary/70 leading-relaxed max-w-sm">
+            Maneesh drives execution and project delivery, translating vision
+            into buildable realities with precision, efficiency, and long-term
+            value for clients.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- contact -->
+<section id="contact" class="bg-background py-32 border-t border-primary/10">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-24">
+
+    <!-- Left Label -->
+    <div>
+      <span class="font-body text-xs tracking-[0.3em] text-primary/60 uppercase">
+        [Contact Us]
+      </span>
+    </div>
+
+    <!-- Right Content -->
+    <div class="space-y-14">
+
+      <!-- Phone -->
+      <div>
+        <p class="font-body text-xs text-primary/60 mb-2">
+          Phone Number
+        </p>
+        <p class="font-heading text-2xl text-primary">
+          (123) 456-7890
+        </p>
+      </div>
+
+      <!-- Address -->
+      <div>
+        <p class="font-body text-xs text-primary/60 mb-2">
+          Address
+        </p>
+        <p class="font-heading text-2xl text-primary max-w-md leading-snug">
+          6391 Elgin St. Celina, Delaware 102
+        </p>
+      </div>
+
+      <!-- Email -->
+      <div>
+        <p class="font-body text-xs text-primary/60 mb-2">
+          Email Address
+        </p>
+        <p class="font-heading text-2xl text-primary">
+          info@aether.com
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-[#1f1f1f] text-white pt-32 pb-12">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Top Content -->
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-24 mb-24">
+
+      <!-- Left Column -->
+      <div class="space-y-12">
+        <!-- Brand -->
+        <div class="font-heading text-xl">
+          THALAM.
+        </div>
+
+        <!-- Navigation -->
+        <nav class="flex gap-8 text-sm text-white/70">
+          <a href="#home" class="hover:text-white transition">Home</a>
+          <a href="#about" class="hover:text-white transition">About</a>
+          <a href="#services" class="hover:text-white transition">Services</a>
+          <a href="#projects" class="hover:text-white transition">Projects</a>
+        </nav>
+
+        <!-- Social -->
+        <div>
+          <p class="text-sm text-white/50 mb-4">Follow Us</p>
+          <div class="flex gap-4 text-white/70">
+            <a href="#" class="hover:text-white transition">○</a>
+            <a href="#" class="hover:text-white transition">○</a>
+            <a href="#" class="hover:text-white transition">○</a>
+            <a href="#" class="hover:text-white transition">○</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="flex flex-col justify-between">
+
+        <!-- Statement -->
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl leading-tight max-w-3xl">
+          We Believe <span class="text-white/40">Great Architecture</span><br />
+          Improves Lives Through<br />
+          <span class="text-white/40">Dedicated Project Delivery!</span>
+        </h2>
+
+        <!-- Email Input -->
+        <div class="mt-16 flex items-center border-b border-white/30 max-w-md">
+          <input
+            type="email"
+            placeholder="Enter email address"
+            class="bg-transparent w-full py-3 text-sm outline-none placeholder-white/40"
+          />
+          <button class="text-white/60 hover:text-white transition text-xl">
+            →
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-start sm:items-center text-xs text-white/50 gap-4">
+
+      <p>© 2024 all reserved by THALAM.</p>
+
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-white transition">Terms & Conditions</a>
+        <a href="#" class="hover:text-white transition">Privacy Policy</a>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- floating button  -->
+<a
+  href="#home"
+  id="scroll-to-top"
+  class="fixed bottom-8 right-8 z-50 flex items-center justify-center w-14 h-14 bg-white rounded-full shadow-lg transition-all duration-300 opacity-0 pointer-events-none hover:scale-110 group"
+>
+  <svg class="absolute w-12 h-12 -rotate-90" viewBox="0 0 100 100">
+    <circle
+      id="scroll-progress"
+      cx="50"
+      cy="50"
+      r="26"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="4"
+      stroke-dasharray="4 6"
+      class="text-primary opacity-0 transition-opacity duration-300"
+      stroke-linecap="round"
+    />
+  </svg>
+
+  <span class="relative text-xl text-primary transition-transform group-hover:-translate-y-1">
+    ↑
+  </span>
+</a>
+
+
+
+
+
+    <script>
+      // Accordion Script
+      function toggleAccordion(index) {
+        const items = document.querySelectorAll(".accordion-item");
+        items.forEach((item, i) => {
+          const content = item.querySelector(".accordion-content");
+          const icon = item.querySelector(".accordion-icon");
+          if (i === index) {
+            const isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
+            if (isOpen) {
+              content.style.maxHeight = "0px";
+              icon.textContent = "+";
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+              icon.textContent = "−";
+            }
+          } else {
+            content.style.maxHeight = "0px";
+            icon.textContent = "+";
+          }
+        });
+      }
+
+      // Slider Script
+      let currentIdx = 0;
+      const slider = document.getElementById('project-slider');
+      const slides = document.querySelectorAll('.project-slide');
+
+      function updateSlider() {
+        if (!slider || slides.length === 0) return;
+        
+        const gap = 32; // gap-8 = 2rem = 32px
+        const slideWidth = slides[0].offsetWidth;
+        const offset = -currentIdx * (slideWidth + gap);
+        
+        slider.style.transform = `translateX(${offset}px)`;
+
+        // Highlight active slide details and adjust opacities
+        slides.forEach((slide, i) => {
+          const details = slide.querySelector('.slide-details');
+          const img = slide.querySelector('img');
+          
+          if (i === currentIdx) {
+            if (details) details.style.opacity = "1";
+            if (img) img.style.filter = "grayscale(0%)";
+            slide.style.opacity = "1";
+          } else {
+            if (details) details.style.opacity = "0";
+            if (img) img.style.filter = "grayscale(100%)";
+            slide.style.opacity = "0.3";
+          }
+        });
+      }
+
+      function moveSlider(direction) {
+        currentIdx += direction;
+        
+        // Loop back or bound correctly
+        if (currentIdx < 0) {
+          currentIdx = slides.length - 1;
+        } else if (currentIdx >= slides.length) {
+          currentIdx = 0;
+        }
+        
+        updateSlider();
+      }
+
+
+
+      // Handle resize with debouncing
+      let resizeTimer;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(updateSlider, 100);
+      });
+    
+      let feedbackIdx = 0; const feedbackSlider = document.getElementById('feedback-slider'); const feedbackSlides = document.querySelectorAll('.feedback-slide'); function updateFeedbackSlider() { if (!feedbackSlider || feedbackSlides.length === 0) return; const offset = -feedbackIdx * 100; feedbackSlider.style.transform = `translateX(${offset}%)`; } function moveFeedbackSlider(direction) { feedbackIdx += direction; if (feedbackIdx < 0) feedbackIdx = feedbackSlides.length - 1; else if (feedbackIdx >= feedbackSlides.length) feedbackIdx = 0; updateFeedbackSlider(); } 
+
+ const scrollTopBtn = document.getElementById("scroll-to-top");
+const progressCircle = document.getElementById("scroll-progress");
+
+const radius = 26;
+const circumference = 2 * Math.PI * radius;
+
+// Initial setup to avoid half-line
+progressCircle.style.strokeDasharray = circumference;
+progressCircle.style.strokeDashoffset = circumference;
+
+window.addEventListener("scroll", () => {
+  const scrollTop =
+    window.pageYOffset || document.documentElement.scrollTop;
+
+  const scrollHeight =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+
+  const scrollPercentage = scrollTop / scrollHeight;
+
+  // Update progress
+  const offset =
+    circumference - scrollPercentage * circumference;
+
+  progressCircle.style.strokeDashoffset = offset;
+
+  // Show button + progress only after scroll
+  if (scrollTop > 300) {
+    scrollTopBtn.classList.remove("opacity-0", "pointer-events-none");
+    scrollTopBtn.classList.add("opacity-100");
+
+    progressCircle.classList.remove("opacity-0");
+  } else {
+    scrollTopBtn.classList.add("opacity-0", "pointer-events-none");
+    scrollTopBtn.classList.remove("opacity-100");
+
+    progressCircle.classList.add("opacity-0");
+    progressCircle.style.strokeDashoffset = circumference;
+  }
+});
+
+
+      // Initialize
+      window.addEventListener('DOMContentLoaded', () => {
+        // Ensure images are loaded or layout is ready
+        setTimeout(() => {
+          toggleAccordion(0);
+          updateSlider();
+          updateFeedbackSlider();
+        }, 300);
+      });
+    </script>
+  </body>
+</html>
